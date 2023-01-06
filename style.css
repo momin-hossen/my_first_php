@@ -1,0 +1,559 @@
+/* navbar begin */
+.manu{
+    background-color: rgba(233,233,233, 0.7);
+    border-bottom: 5px solid rgba(184, 178, 178, 0.7);
+    height: 100px;
+}
+.add-manu{
+    background-color: white;
+    border-bottom: 5px solid rgba(184, 178, 178, 0.7);
+    height: 80px;
+}
+.logo{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.navHigh{
+    background-color: white;
+    height: 80px;
+    transition: 800ms;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(255, 0, 212);
+}
+.down-hover:hover{
+    color: rgb(255, 0, 212);
+}
+/* navbar end */
+
+/* slider begin */
+.absulut{
+    margin-top: -95px;
+}
+
+.text{
+    color: black;
+    margin-bottom: 250px;
+}
+.text h5{
+    font-size: 70px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* slider end */
+
+/* coming soon begin */
+.soon{
+    overflow: hidden;
+}
+.midale{
+    text-align: center;
+    margin-top: 20px;
+}
+.zero{
+    font-size: 100px;
+    font-weight: 400;
+    color: rgb(221, 80, 165);
+}
+/* coming soon end */
+
+/* Announcement begin */
+.bg{
+    position: absolute;
+}
+.Announcement{
+    position: relative;
+    overflow: hidden;
+    background: url(image/left-flower-border.png);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.Announcement-1{
+    margin-top: 0px;
+}
+.Announcement-container{
+    width: 800px;
+    margin: auto;
+}
+.cardd{
+    background-color: rgba(219, 216, 216, 0.7);
+    text-align: center;
+    margin-top: 110px;
+}
+.card-body{
+    padding: 20px;
+}
+.card-img{
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+.romeo{
+    overflow: hidden;
+}
+.wedding-head{
+    padding-top: 20px;
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+.wedding-pera{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(69, 67, 67);
+}
+.rowe{
+    overflow: hidden;
+}
+.anou-card{
+    position: relative;
+    transition: 800ms;
+}
+.anou-card:hover .anou-abust{
+    display: block;
+    transition: 800ms;
+}
+.anou-abust{
+    background-color: rgba(255, 0, 212, 0.662);
+    position: absolute;
+    top: -100px;
+    color: white;
+    left: 20%;
+    width: 60%;
+    height: 190px;
+    border-radius: 50%;
+    display: none;
+    transition: 800ms;
+}
+.full-font{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    margin-top: 35px;
+    margin-left: 35px;
+    border-radius: 50%;
+}
+.ma-top{
+    font-size: 30px;
+    margin-top: 45px; 
+    color: rgb(255, 0, 212);
+}
+/* Announcement end */
+
+/* elements begin */
+.elements-bg{
+    background-image: url(image/slider-2.jpg);
+    height: 60vh;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.shawdo{
+    background-color: rgba(110, 0, 80, 0.464);
+    height: 60vh;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+.shawdo h3{
+    margin-top: 50px;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Dancing Script', cursive ;
+    font-style: italic;
+}
+.love-1{
+    color: white;
+    font-size: 50px;
+    padding: 15px 0;
+}
+.love-2{
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.love-3{
+    color: white;
+    font-size: 25px;
+    padding-top: 25px;
+}
+/* elements end */
+
+/* love story begin */
+.love_story{
+    background-color: rgb(233, 233, 233);
+    height: 1050px;
+    overflow: hidden;
+}
+.love_story-container{
+    width: 50%;
+    margin: auto;
+}
+.love_story_heading{
+    font-size: 2.7vw;
+    font-family: 'Dancing Script', cursive ;
+    font-style: italic;
+}
+.love-pera{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(69, 67, 67);
+}
+
+
+.row_height{
+    height: 200px;
+}
+.img_col{
+    position: relative;
+    height:200px;
+}
+.img_col img{
+    width: 100%;
+    height: 100%;
+}
+.img_col-2{
+    position: relative;
+    height:200px;
+}
+.img_col-2 img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+.img_ovarlay{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:100%;
+    left: 5px;
+    top: 0;
+}
+.img_ovarlay-2{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:100%;
+    left: -10px;
+    top: 0;
+}
+.img_ovarlay-3{
+    position: absolute;
+    content: "";
+    width: 105%;
+    height:100%;
+    left: 12px;
+    top: 0;
+}
+.img_ovarlay img{
+    width: 100%;
+    height: 100%;
+}
+.text-color{
+    color: rgb(221, 80, 165);
+}
+/* love story end */
+
+/* events begin */
+.Events{
+    overflow: hidden;
+}
+.celebration-image img{
+    border-radius: 10px;
+}
+.love{
+    font-size: 25px;
+    color: rgb(221, 80, 165);
+    padding: 10px 0;
+}
+.read{
+    color: rgb(221, 80, 165);
+    font-size: 20px;
+}
+/* events end */
+
+/* Photo_Album begin */
+.Photo_Album{
+    background-color: rgb(233, 233, 233);
+    height: 850px;
+    width: 100%;
+}
+
+.gallery-button{
+    color: rgb(226, 43, 211);
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #fc0dfd;
+}
+/* Photo_Album end */
+
+/* Groomsmen & Bridesmaids begin */
+.groomsmen-row-height{
+    height: 500px;
+}
+.groomsmen-height{
+    margin-top: 80px;
+}
+.Bridesmaids-row-height{
+    height: 300px;
+    background-color: rgb(221, 80, 165);
+    width: 100%;
+}
+.card-romeo{
+    position: relative;
+    margin-top: -140px;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
+.card-romeo-img{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
+.card-romeo:hover .romeo-overly{
+    display: block;
+    border: 5px solid white;
+}
+.romeo-overly{
+    position: absolute;
+    background-color: rgba(221, 80, 165, 0.663);
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    top: 0;
+    display: none;
+}
+.po{
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.groom-link{
+    text-decoration: none;
+}
+.groom{
+    margin-top: 70px;
+    font-size: 20px;
+    color: rgb(221, 80, 165);
+    font-weight: bold;
+}
+/* Groomsmen & Bridesmaids end */
+
+/* From Our Journal begin */
+.From-Our-Journal{
+    height: 900px;
+    background-color: rgb(233, 233, 233);
+}
+
+.journal-card{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.journal-card-img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.journal-card:hover .journal-card-img-hover{
+    display: block;
+    border: 7px solid white;
+}
+.journal-card-img-hover{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: rgba(221, 80, 165, 0.663);
+    top: 0;
+    display: none;
+}
+.journal-heading{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 43px;
+    position: relative;
+}
+.momin{
+    position: absolute;
+    color: rgb(221, 80, 165);
+    margin-top: 80px;
+    margin-left: 50px;
+    text-align: center;
+}
+.journal-div{
+    text-align: center;
+    margin-top: 80px;
+}
+.journal-btn{
+    background-color: rgb(221, 80, 165);
+    padding: 15px 50px;
+    color: white;
+    margin: 10px;
+    border: 1px solid rgb(221, 80, 165);
+}
+.journal-btn:hover{
+    border: 1px solid rgb(221, 80, 165);
+}
+/* From Our Journal end */
+
+
+/* gift registration begin */
+.gift-registration {
+    background: url(image/gift-register-bg.jpg);
+    height: 500px;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.gift-overlay{
+    background-color: rgba(221, 80, 165, 0.663);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.gift-love{
+    color: white;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.gift-pera{
+    font-size: 20px;
+}
+/* gift registration end */
+
+/* submit begin */
+.submit{
+    background: url(image/rsvp-bg.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+.submit-overlay{
+    background-color: rgba(255, 255, 255, 0.804);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.form-inline{
+    background: url(image/rsvp-form-bg.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.form-overlay{
+    background-color: rgba(225, 138, 176, 0.555);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.submit-btn{
+    background-color: rgb(221, 80, 165);
+    width: 170px;
+    margin: auto;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.submit-btn:hover{
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+}
+/* submit end */
+
+/* fotter begin */
+.footer-row-1{
+    background: rgb(248, 211, 233) url(image/footer-bg.png);
+    height: 200px;
+}
+.footer-heading{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive ;
+    color: rgb(221, 80, 165);
+    margin-top: 40px;
+}
+.footer-pera{
+    font-size: 35px;
+}
+.footer-row-2{
+    background-color: rgb(221, 80, 165);
+    height: 80px;
+}
+/* fotter end */
+
+
+/* styleOne begin */
+.styleone-1{
+    background-image: url(image/banar.jpg);
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    margin-top: -100px;
+}
+.styleone-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.blog-text{
+    margin-top: 330px;
+}
+.our-blog{
+    font-family: 'Dancing Script', cursive ;
+}
+.Blog-Headline{
+    font-family: 'Dancing Script', cursive ;
+}
+/* styleOne end */
+
+
+/* styleTwo begin */
+.styletwo-btn{
+    color: rgb(221, 80, 165);
+    text-decoration: none;
+    font-size: 17px;
+}
+/* styleTwo end */
+
+/* Blog-details begin */
+.blog-details{
+    background-image: url(image/blog-details.jpg);
+}
+.blog-content-image{
+    background-color: #fff;
+    border: 2px solid #e18aaf;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 100px;
+    width: 100%;
+}
+.prink{
+    background-color: rgba(240, 128, 193, 0.195);
+}
+/* Blog-details end */
